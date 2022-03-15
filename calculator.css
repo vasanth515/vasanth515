@@ -25,7 +25,7 @@ body{
 	border: 1px solid black;
 }
 .calculator-grid > button:hover{
-	background: #3a3f47;
+	background: #3a3f4733;
 }
 .space{
 	grid-column: span 2;
