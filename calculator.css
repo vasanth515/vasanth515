@@ -6,7 +6,7 @@
 body{
 	padding: 0;
 	margin: 0;
-	background: #333;
+	background: black;
 }
 .calculator-grid{
 	align-content: center;
@@ -21,8 +21,8 @@ body{
 	font-size: 2rem;
 	outline: none;
 	color: #ffffff;
-	background: #4d5460;
-	border: 1px solid white;
+	background: black;
+	border: 1px solid black;
 }
 .calculator-grid > button:hover{
 	background: #3a3f47;
@@ -32,7 +32,7 @@ body{
 }
 .output{
 	grid-column: 1/-1;
-	background: #f2f2f2;
+	background: black;
 	align-items: flex-end;
 	flex-direction: column;
 	justify-content: space-around;
@@ -49,8 +49,9 @@ body{
 }
 .output .previous-operand{
 	font-size: 1.5rem;
-	color: #333;
+	color: #ffffffcc;
 }
 .output .current-operand{
 	font-size: 2.5rem;
+	color: white;
 }
