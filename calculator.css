@@ -10,11 +10,11 @@ body{
 }
 .calculator-grid{
 	align-content: center;
-	display: grid;
-	justify-content: center;
-	min-height: 100vh;
-	grid-template-columns: repeat(4, 100px);
-	grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+    display: grid;
+    justify-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 103px);
+    grid-template-rows: minmax(130px, auto) repeat(5, 156px);
 }
 .calculator-grid > button{
 	cursor: pointer;
